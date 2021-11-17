@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <title>Proyecto JS - C-23665</title>
+</head>
+
+<body>
+    <!--cabecera-->
+    <!--<section class="cabecera">
+        <nav class="navbar navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="/img/logo.png" alt="" width="120" height="120">
+                </a>
+            </div>
+        </nav>
+        <p></p>
+    </section>
+    <section>-->
+
+    <p></p>
+    <section>
+        <img src="/img/logo.png" alt="" width="350" height="350">
+    </section>
+    <p></p>
+    <div>
+        <h1>BIENVENIDO</h1>
+    </div>
+    <p></p>
+    <button class="btn btn-primary" id="mostrarFoto">Haz click para comenzar</button>
+    <p></p>
+    </section>
+    <p></p>
+    <section id="foto" style="display:none">
+        <!--<img src="img/FOTO1.jpg" alt="Foto" width="300" height="400">-->
+        <p></p>
+        <!--Contenido-->
+        <div class="textoCentrado" id="textoVenta">
+            <!--Aqui va texto-->
+        </div>
+        <p></p>
+        <form class="form" id="formulario">
+            <input id="nombre" type="text" placeholder="Ingresa tu Nombre">
+            <input id="edad" type="text" placeholder="Ingresa tu edad" onchange="validarEdad(this)">
+            <input type="submit" value="ENVIAR">
+        </form>
+        <p></p>
+        <div class="container">
+            <div id="cotizacion" class="row" style="background-color:#aaa">
+                <div class="col">
+                    <h3 class="text-center">COTIZACION DOLAR</h3>
+                </div>
+            </div>
+            <p></p>
+            <div class="fondo">
+                <ul class="row milista list-group list-group-horizontal">
+                    <!-- Aqui los productos -->
+                </ul>
+                <p></p>
+            </div>
+            <div class="tablaCompras">
+                <h4>TUS COMPRAS:</h4>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">PRODUCTO</th>
+                            <th scope="col">CANTIDAD</th>
+                            <th scope="col">PRECIO</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tablabody">
+                        <!-- aqui tabla carrito -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!--Footer-->
+        <section>
+            <!--Acá va el footer-->
+        </section>
+
+
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        <!-- JQuery -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <!-- Sweet Alert -->
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <!-- Mi script -->
+        <script src="productos.js"></script>
+        <script src="script.js"></script>
+</body>
+
+</html>

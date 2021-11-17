@@ -1,0 +1,30 @@
+body {
+    background-color: brown;
+    background-image: radial-gradient(circle, white, brown);
+    text-align: center;
+}
+
+.cabecera {
+    background-color: brown !important;
+}
+
+.textoCentrado {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.form {
+    text-align: center;
+}
+
+.fondo {
+    background-color: brown;
+}
+
+h4 {
+    text-decoration: underline;
+}
+
+.tablaCompras {
+    background-color: rgb(189, 189, 92);
+}
